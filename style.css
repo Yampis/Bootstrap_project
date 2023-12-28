@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Our Best Workers ---> */
+
+.container_workers_block {
+    margin: 120px auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.container_workers_block_txt{
+    display: flex;
+    flex-direction: column
+}
+.container_workers_block_txt-1{
+    width: 270px;
+    margin: 0 auto;
+    display: flex;
+}
+.Rectangle{
+    width: 3px;
+    height: 100px;
+    flex-shrink: 0;
+    background: var(--main, #377DFF);
+    display: flex;
+    justify-content: start;
+}
+.btn-lg__1{
+    margin: 30px auto;
+    background-color: #fff;
+    width: 164px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #141D28;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 100% */
+    border: 2px solid var(--main, #377DFF);
+}
+.card-title{
+    margin-top: 35px;
+    color: #141D28;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34.5px; /* 132.692% */
+    letter-spacing: 1px;
+}
+.card-text{
+    margin-top: 9px;
+    color: #5C6F87;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 214.286% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.text{
+    color: var(--main, #377DFF);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 46px; 
+    letter-spacing: 1px;
+
+    text-align: center;
+}
+
+.container_workers_block_txt {
+    width: 300px;
+    /* border: 1px solid #000; */
+    margin-left: 165px;
+    position: relative;
+    
+}
+.Rectangle {
+}
+.text {
+}
+.btn {
+    
+}
+.btn-primary {
+}
+.btn-lg__1{
+    margin-right: 120px;
+}
+.container_workers_block_cards {
+    width: 65%;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid yellow; */
+    
+}
+.container_workers_block_cards_card-1_image{
+    position: relative;
+}
+.btn btn-primary {
+    color: #000;
+}
+.container_workers_block_cards_card-1 {
+    
+    /* border: 1px solid #000000; */
+    text-align: center;
+}
+.container_workers_block_cards_card-1_img {
+    
+}
+.container_workers_block_cards_card-1{
+    transition: 1s;
+}
+.container_workers_block_cards_card-1:hover {
+    scale: 1.1;
+}
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #233142;;
+    --bs-btn-border-color: #233142;;
+    --bs-btn-hover-color: #233142;;
+    --bs-btn-hover-bg: #233142;;
+    --bs-btn-hover-border-color: #233142;;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #233142;;
+    --bs-btn-active-border-color: #233142;;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #233142;;
+    --bs-btn-disabled-border-color:#233142;;
+}
+.container_workers_block_cards_card-1_txt {
+}
+.container_workers_block_cards_card-1_txt2 {
+}
+.card-share{
+    width: 288px;
+    height: 50px;
+    flex-shrink: 0;
+    background: var(--main, #377DFF);
+
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 60px;
+    transform: translateY(-100%);
+    
+    /* display: none; */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.container_workers_block_cards_card-1:hover .card-share{
+    display: block;
+    /* transform: translateY(-50px); */
+    transition: 1.2s;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 60px;
+}
+
+/* <---Our Best Workers */
+
+/*----------Carusel--------- */
+
+.container_carusel_testimonials {
+    max-width: 1440px;
+    display: flex;
+    margin: 300px auto;
+    justify-content: center;
+}
+.container_carusel_test_text{
+    display: flex;
+}
+.Rectangle_testimomials{
+    width: 3px;
+    height: 50px;
+    flex-shrink: 0;
+    background: var(--main, #377DFF);
+    display: flex;
+    justify-content: start;
+}
+.test_text_1 {
+    color: var(--main, #377DFF);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 46px; /* 115% */
+    letter-spacing: 1px;
+    margin: 0 12px 0 27px;
+}
+.test_text_2 {
+    color: #141D28;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 46px; /* 115% */
+    letter-spacing: 1px;
+}
+.testi_text1{
+    margin: 60px 0 0 0;
+    color: #4E5E72;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31px; /* 155% */
+}
+.testi_text2 {
+    margin: 40px 0 0 0;
+    color: #141D28;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34.5px; /* 127.778% */
+    letter-spacing: 1px;
+}
+.testi_text3 {
+    margin: 9px 0 0 0;
+    margin-bottom: 100px;
+    color: #4E5E72;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.container_carusel_tes_block{
+    width: 965px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+.carousel-inner{
+    width: 250px;
+    height: 250px;
+    flex-shrink: 0;
+}
+.carousel {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin: 72px 0 0 0;
+    width: 450px;
+}
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0px;
+    color: rgb(19, 23, 103);
+    text-align: center;
+    background: 0px 0px;
+    border: 0px;
+    opacity: 0.5;
+    transition: opacity 0.15s ease 0s;
+}
+
+.carousel-control-next {
+
+}
+
+/* Стилі для великих екранів (дисплей максимум 1199рх) / */
+    @media (max-width: 1199px) { }
+/* / Стилі для середніх екранів (дисплей максимум 991рх) / */
+    @media (max-width: 991px) {  }
+
+/* / Стилі для малих екранів (дисплей максимум 767рх) / */
+    @media (max-width: 767px) {  }
+
+/* / Стилі для дуже малих екранів (дисплей максимум 575рх) */
+@media (max-width: 575px) {
+    .container_workers{
+        
+        
+    }
+}

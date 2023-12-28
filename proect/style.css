@@ -1,0 +1,204 @@
+.NewEra__info{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 70px;
+font-style: normal;
+font-weight: 600;
+line-height: 80.5px; /* 115% */
+letter-spacing: 1px;
+}
+.Innovation__info{
+    color: var(--main, #377DFF);
+font-family: Montserrat;
+font-size: 55px;
+font-style: normal;
+font-weight: 500;
+line-height: 69px; /* 125.455% */
+letter-spacing: 1px;
+}
+.Always__info{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+letter-spacing: 1px;
+}
+.box{
+    background-color: #233142;
+}
+.card__btn {
+    background-color: #233142;
+}
+.box__block{
+    display:flex ;
+    align-items: center;
+}
+.{
+  display: flex;
+  align-items: right;
+}
+.box-2__title-Our{
+    color: var(--main, #377DFF);
+text-align: center;
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 46px; /* 115% */
+letter-spacing: 1px;
+    
+}
+.box-2__title{
+    margin: 140px auto;
+}
+
+.box-2__section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    }
+    .box-2__title-center{   
+        
+        text-align: center;
+    }
+    .box-2__title{
+        color: #141D28;
+text-align: center;
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 46px; /* 115% */
+letter-spacing: 1px;
+    }
+    .card-body{
+        background: #141D28;
+        color: #FFF;
+
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 23px; /* 127.778% */
+letter-spacing: 1px;
+    }
+    .section-left__block-text{
+        color: #5C6F87;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 200% */
+text-transform: capitalize;
+    }
+    .section-left__text{
+        color: #5c6f87;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+    }
+    .section-left__block-text__Motion{
+        color: #141D28;
+font-family: Montserrat;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 23px; /* 135.294% */
+letter-spacing: 1px;
+    }
+    .container__info{
+        
+    }
+    .btn-primary{
+        --bs-btn-color: #fff;
+    --bs-btn-bg: #f5f6f8;
+    --bs-btn-border-color: #f6f8fc;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #233142;
+    --bs-btn-hover-border-color: #233142;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg:#233142;
+    --bs-btn-active-border-color: #233142;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #233142;
+    --bs-btn-disabled-border-color: #233142;
+    background-color: #233142;
+    }
+    
+
+
+
+
+
+
+
+     
+    @media (max-width: 1199px) { 
+        .NewEra__info{
+            font-size: 60px;
+            
+        }
+        .Innovation__info{
+            font-size: 40px;
+        }
+        .Always__info{
+            
+            
+        }
+        .block__image{
+            width: 50%;
+        }
+        .box{
+            padding: 200px 0;
+            margin: 0 auto;
+        }
+        .container__info{
+            text-align: center;
+        }
+     }
+
+
+    @media (max-width: 991px) { 
+        .block__image{
+            display: none;
+            
+        }
+        .box__block{
+            padding-top: 100px;
+        }
+        .box-2__section{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            
+        }
+        .section-right .card{
+            margin-top: 40px;
+        }
+        .section-left__text{
+            
+        }
+        .block__image2{
+            display: none;
+        }
+     }
+
+
+
+    @media (max-width: 767px) {
+    
+    }
+     
+
+
+@media (max-width: 575px) { 
+    
+ }
